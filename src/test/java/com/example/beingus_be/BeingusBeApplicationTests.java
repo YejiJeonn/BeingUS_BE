@@ -1,4 +1,4 @@
-package com.project.beingus_be;
+package com.example.beingus_be;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
