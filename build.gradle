@@ -33,6 +33,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web-services'
 	implementation 'org.springframework.boot:spring-boot-starter-websocket'
 	implementation 'mysql:mysql-connector-java:8.0.27'
+	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.12.5'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation 'io.netty:netty-resolver-dns-native-macos:4.1.118.Final:osx-aarch_64' // Apple Silicon Mac
+
+
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'

@@ -1,13 +1,13 @@
 package com.example.beingus_be.dto;
 
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
+@Setter
 public class CreateUserRequestDto {
 
-    private String userId;
-    private String password;
-    private String name;
-    private String phoneNumber;
-    private String recommandId;
+    private Long id;
+    private Long kakaoId;
+    private String nickname;
 }

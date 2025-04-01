@@ -12,9 +12,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String userId;
-    private String password;
-    private String name;
-    private String phoneNumber;
-    private String recommandId;
+
+    @Column(name = "kakaoId")
+    private Long kakaoId;
+
+    @Column(name = "nickname")
+    private String nickname;
 }
